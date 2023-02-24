@@ -1,0 +1,14 @@
+<pre>
+    <?php
+    print('server\n');
+    print_r($_SERVER); 
+    print('get\n');
+    print_r($_GET);
+    print('post\n');
+    print_r($_POST);
+    print("file\n");
+    print_r($_FILES);
+    print("cookie\n");
+    print_r($_COOKIE);
+    ?>
+</pre>
